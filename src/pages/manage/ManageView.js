@@ -38,7 +38,7 @@ export default function ManageView({waitingRooms}) {
         <title>{pageMetadata.title}</title>
       </Head>
       <section className={'row'}>
-        <h1>Salles d'attente</h1>
+        <h1>Salles d'attente </h1>
         {
           displayWaitingRooms()
         }

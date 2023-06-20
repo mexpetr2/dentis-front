@@ -88,13 +88,13 @@ export default function ManageView({ waitingRooms }) {
               required:
                 "Votre numéro de sécurité sociale doit contenir 13 chiffres",
               minLength: {
-                value: 13,
+                value: 13, 
                 message:
                   "Votre numéro de sécurité sociale doit contenir 13 chiffres",
               },
               maxLength: {
                 value: 13,
-                message:
+                message :
                   "Votre numéro de sécurité sociale doit contenir 13 chiffres",
               },
             })}
